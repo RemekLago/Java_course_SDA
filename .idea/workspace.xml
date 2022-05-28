@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/switches/Exercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/switches/SwitchCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,13 +46,13 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Zadanie4">
-    <configuration name="AverageOfElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.AverageOfElementsInArray" />
+  <component name="RunManager" selected="Application.Exercise">
+    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="switches.Exercise" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="switches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Zadanie1" />
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="switches.SwitchCase" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="switches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise" />
+        <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.Zadanie4" />
         <item itemvalue="Application.Zadanie3" />
         <item itemvalue="Application.Zadanie2" />
-        <item itemvalue="Application.Zadanie1" />
-        <item itemvalue="Application.AverageOfElementsInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +145,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/exercises/Zadanie3.java</url>
           <line>18</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/exercises/Zadanie4.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
