@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/AverageOfElementsInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/SumOfElementsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,20 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
-  <component name="RunManager" selected="Application.AverageOfElementsInArray">
-    <configuration name="Arguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arguments.Arguments" />
-      <module name="repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arguments.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Zadanie2">
     <configuration name="AverageOfElementsInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.AverageOfElementsInArray" />
       <module name="repo" />
@@ -98,12 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zadanie1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Zadanie1" />
+      <module name="repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zadanie2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.Zadanie2" />
+      <module name="repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zadanie2" />
+        <item itemvalue="Application.Zadanie1" />
         <item itemvalue="Application.AverageOfElementsInArray" />
         <item itemvalue="Application.SumOfElementsInArray" />
         <item itemvalue="Application.Operators" />
-        <item itemvalue="Application.Arguments" />
       </list>
     </recent_temporary>
   </component>
