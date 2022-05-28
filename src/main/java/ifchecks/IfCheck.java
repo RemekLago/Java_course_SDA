@@ -1,3 +1,5 @@
+package ifchecks;
+
 public class IfCheck {
 
     public static void main(String[] args) {

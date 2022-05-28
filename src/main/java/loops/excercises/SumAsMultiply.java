@@ -1,3 +1,5 @@
+package loops.excercises;
+
 public class SumAsMultiply {
 
     static int skladowa1;
