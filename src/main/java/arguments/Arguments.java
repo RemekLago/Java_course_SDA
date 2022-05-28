@@ -17,6 +17,7 @@ public class Arguments {
         double result1 = oldValue / valueFromDatabase;
         System.out.println(result1);
 
+        // rzutowanie - zmiana typu wartości zmiennej
         double result2 = (double)oldValue / (double)valueFromDatabase;
         System.out.println(result2);
 

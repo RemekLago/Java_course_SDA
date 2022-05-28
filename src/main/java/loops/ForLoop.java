@@ -9,5 +9,9 @@ public class ForLoop {
         for (int j = 0; j < i; j = j + 1) {
             System.out.println("j = " + j);
         }
+
+        for (int j = 0; j < i; j++) {
+            System.out.println("j = " + j);
+        }
     }
 }
