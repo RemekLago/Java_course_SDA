@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/switches/Exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/switches/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/Pies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/classes/PiesProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Exercise">
+  <component name="RunManager" selected="Application.PiesProgram">
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="switches.Exercise" />
       <module name="repo" />
@@ -60,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="switches.SwitchCase" />
+    <configuration name="PiesProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.PiesProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switches.*" />
+          <option name="PATTERN" value="classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Zadanie2" />
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="switches.SwitchCase" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="switches.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PiesProgram" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.Zadanie4" />
         <item itemvalue="Application.Zadanie3" />
-        <item itemvalue="Application.Zadanie2" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +150,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/exercises/Zadanie4.java</url>
           <line>5</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classes/PiesProgram.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classes/PiesProgram.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
