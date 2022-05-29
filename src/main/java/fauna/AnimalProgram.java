@@ -40,6 +40,7 @@ public class AnimalProgram {
                     lion.travel(x, y);
                     break;
                 case "Q":
+                    System.out.println("KONIEC");
                     break;
                 default:
                     System.out.println("Nie rozumiem o co Ci chodzi");
