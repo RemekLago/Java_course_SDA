@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/ArrayUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/PiesProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zadanie1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zadanie2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercises/Zadanie4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercises/Zadanie4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Pies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Zadanie2">
+  <component name="RunManager" selected="Application.PiesProgram">
     <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="switches.Exercise" />
       <module name="repo" />
@@ -126,10 +122,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PiesProgram" />
         <item itemvalue="Application.Zadanie2" />
         <item itemvalue="Application.Zadanie4" />
         <item itemvalue="Application.Zadanie1" />
-        <item itemvalue="Application.PiesProgram" />
         <item itemvalue="Application.Exercise" />
       </list>
     </recent_temporary>
@@ -165,11 +161,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java</url>
           <line>17</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
@@ -182,6 +173,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/exercises/Zadanie2.java</url>
           <line>70</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrays/ArrayUtils.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/classes/Pies.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

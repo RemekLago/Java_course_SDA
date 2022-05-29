@@ -7,11 +7,15 @@ public class PiesProgram {
         int value = 1;
 
         Pies burek = new Pies();
+        // burek.rasa = "Labrador";
+        burek.setZdenerwowanie(0);
         burek.szczekaj();
-        burek.rasa = "Labrador";
 
         Pies puszek = new Pies();
         puszek.szczekaj();
+
+        Pies okruszek = null;
+        // okruszek.szczekaj();
 
         for (int i = 0; i < 10; i++) {
             burek.szczekaj();
