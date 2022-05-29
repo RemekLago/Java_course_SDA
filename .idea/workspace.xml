@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/trigonometry/app/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Pies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Pies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/program/PiesProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +57,13 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.PiesProgram">
-    <configuration name="Exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="switches.Exercise" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="PiesProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.program.PiesProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="switches.*" />
+          <option name="PATTERN" value="classes.program.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PiesProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.program.PiesProgram" />
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trigonometry.app.Program" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.program.*" />
+          <option name="PATTERN" value="trigonometry.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.PiesProgram" />
         <item itemvalue="Application.Zadanie2" />
         <item itemvalue="Application.Zadanie4" />
         <item itemvalue="Application.Zadanie1" />
-        <item itemvalue="Application.Exercise" />
       </list>
     </recent_temporary>
   </component>
