@@ -9,7 +9,7 @@ public class Zadanie1 {
         int revertNumber = 0;
 
         while (number > 0) {
-            revertNumber *= 10;
+            revertNumber = revertNumber * 10;
             revertNumber += number % 10;
             number /= 10;
         }

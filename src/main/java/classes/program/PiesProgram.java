@@ -1,4 +1,6 @@
-package classes;
+package classes.program;
+
+import classes.Pies;
 
 public class PiesProgram {
     public static void main(String[] args) {
