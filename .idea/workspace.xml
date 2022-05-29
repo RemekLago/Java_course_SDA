@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/overload/Overload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/overload/OverloadProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varargs/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varargs/VarargsProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalPosition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalTerritory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fauna/Lion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +56,13 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Program (1)">
-    <configuration name="InitBlocksProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.InitBlocksProgram" />
+  <component name="RunManager" selected="Application.AnimalProgram">
+    <configuration name="AnimalProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fauna.AnimalProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.*" />
+          <option name="PATTERN" value="fauna.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PiesProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.program.PiesProgram" />
+    <configuration name="InitBlocksProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.InitBlocksProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.program.*" />
+          <option name="PATTERN" value="classes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zadanie2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.Zadanie2" />
+    <configuration name="VarargsProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="varargs.VarargsProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.*" />
+          <option name="PATTERN" value="varargs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalProgram" />
+        <item itemvalue="Application.VarargsProgram" />
         <item itemvalue="Application.Program (1)" />
         <item itemvalue="Application.InitBlocksProgram" />
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.PiesProgram" />
-        <item itemvalue="Application.Zadanie2" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +185,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/classes/Pies.java</url>
           <line>70</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
