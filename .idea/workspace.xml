@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/trigonometry/app/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/trigonometry/app/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

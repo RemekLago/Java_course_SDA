@@ -5,6 +5,11 @@ public class Rectangle {
     private double firstSideLength;
     private double secondSideLength;
 
+    public Rectangle(double firstSideLength, double secondSideLength) {
+        this.firstSideLength = firstSideLength;
+        this.secondSideLength = secondSideLength;
+    }
+
     public double calculateArea() {
         return firstSideLength * secondSideLength;
     }
