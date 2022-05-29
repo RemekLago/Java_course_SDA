@@ -5,6 +5,22 @@ public class Triangle {
     private double base;
     private double height;
 
+    private Triangle() {
+        System.out.println("Triangle constructor");
+    }
+
+    public Triangle(double base, double height) {
+        this();
+        System.out.println("Triangle constructor with parameters");
+        this.base = base;
+        this.height = height;
+    }
+
+    public Triangle(double base, double height, String sayHello) {
+        this(base, height);
+        System.out.println(sayHello);
+    }
+
     public double calculateArea() {
         return (base * height) / 2;
     }

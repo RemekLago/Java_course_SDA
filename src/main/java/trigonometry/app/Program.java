@@ -8,7 +8,15 @@ import trigonometry.Triangle;
 public class Program {
 
     public static void main(String[] args) {
-        Triangle triangle = new Triangle();
+        Triangle triangle
+                = new Triangle(1, 2, "Hello, World!");
+
+        System.out.println("Pole trójkąta: "
+                + triangle.calculateArea());
+
+        System.out.println("Obwód trójkąta: "
+                + triangle.calculatePerimeter());
+
         triangle.setBase(1);
         triangle.setHeight(2);
 
