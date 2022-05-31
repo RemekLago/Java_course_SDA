@@ -14,6 +14,7 @@ public class AnimalProgram {
 
         while (!option.equals("Q")) {
 
+            System.out.println(lion);
             option = readOption();
 
             switch (option) {
