@@ -27,4 +27,9 @@ public class AnimalTerritory {
 
         return true;
     }
+
+    @Override
+    public String toString() {
+        return "[" + x + ", " + y + "]";
+    }
 }

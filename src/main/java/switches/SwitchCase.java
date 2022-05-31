@@ -2,7 +2,7 @@ package switches;
 
 public class SwitchCase {
     public static void main(String[] args) {
-        int testVal = 10;
+        int testVal = 12;
         switch (testVal) {
             case 0:
                 System.out.println("wartość 0");

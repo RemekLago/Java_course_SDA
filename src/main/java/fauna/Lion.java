@@ -55,4 +55,14 @@ public class Lion {
         position.setX(x);
         position.setY(y);
     }
+
+    @Override
+    public String toString() {
+        return "Lion{" +
+                "food='" + food + '\'' +
+                ", hunger=" + hunger +
+                ", position=" + position +
+                ", territory=" + territory +
+                '}';
+    }
 }

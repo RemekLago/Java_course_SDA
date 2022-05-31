@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class AnimalProgram {
     public static void main(String[] args) {
         Lion lion = new Lion(4, 4);
+        System.out.println(lion);
 
         System.out.println("Cześć, jestem lew. Co chcesz żebym zrobił?");
 
@@ -12,13 +13,8 @@ public class AnimalProgram {
         String option = "";
 
         while (!option.equals("Q")) {
-            System.out.println("N - zrób hałas");
-            System.out.println("S - idź spać");
-            System.out.println("E - jedz");
-            System.out.println("T - wędruj");
-            System.out.println("Q - koniec");
 
-            option = scanner.nextLine();
+            option = readOption();
 
             switch (option) {
                 case "N":
@@ -61,5 +57,16 @@ public class AnimalProgram {
 //        lion.travel(1, -7);
 //        lion.travel(3.9, -2.7);
 //        lion.travel(2.2, 1.1);
+    }
+
+    private static String readOption() {
+        System.out.println("N - zrób hałas");
+        System.out.println("S - idź spać");
+        System.out.println("E - jedz");
+        System.out.println("T - wędruj");
+        System.out.println("Q - koniec");
+
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }
