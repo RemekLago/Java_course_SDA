@@ -1,8 +1,8 @@
 package strings;
 
 public class Pies {
-    private String rasa;
-    private String imie;
+    private final String rasa;
+    private final String imie;
 
     public Pies(String rasa, String imie) {
         this.rasa = rasa;
@@ -16,4 +16,8 @@ public class Pies {
                 ", imie='" + imie + '\'' +
                 '}';
     }
+
+//    public void setRasa(String rasa) {
+//        this.rasa = rasa;
+//    }
 }
