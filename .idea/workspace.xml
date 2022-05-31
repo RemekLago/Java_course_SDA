@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/Pies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/StringProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fauna/AnimalProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.AnimalProgram">
+  <component name="RunManager" selected="Application.StringProgram">
     <configuration name="AnimalProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fauna.AnimalProgram" />
       <module name="repo" />
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Program (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="classes.copies.Program" />
+    <configuration name="StringProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.StringProgram" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="classes.copies.*" />
+          <option name="PATTERN" value="strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringProgram" />
         <item itemvalue="Application.AnimalProgram" />
         <item itemvalue="Application.EqualsProgram" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.VarargsProgram" />
-        <item itemvalue="Application.Program (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +198,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/equals/EqualsProgram.java</url>
           <line>37</line>
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/strings/StringProgram.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/strings/StringProgram.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
