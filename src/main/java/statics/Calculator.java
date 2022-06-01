@@ -8,5 +8,8 @@ public class Calculator {
 
         int suma = Utils.add(a, b);
         Math.pow(2, 2);
+
+        Utils utils = new Utils("value");
+        utils.method();
     }
 }
