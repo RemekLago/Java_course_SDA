@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/CalculatorProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/Kalkulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/TrojkatProstokatnyProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/ZgadnijLiczbe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statics/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statics/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/statics/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/statics/Utils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.TrojkatProstokatnyProgram">
+  <component name="RunManager" selected="Application.ZgadnijLiczbe">
     <configuration name="CalculatorProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadania.CalculatorProgram" />
       <module name="repo" />
@@ -98,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringProgram" />
-      <module name="repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TrojkatProstokatnyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadania.TrojkatProstokatnyProgram" />
       <module name="repo" />
@@ -124,13 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZgadnijLiczbe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania.ZgadnijLiczbe" />
+      <module name="repo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZgadnijLiczbe" />
         <item itemvalue="Application.TrojkatProstokatnyProgram" />
         <item itemvalue="Application.CalculatorProgram" />
         <item itemvalue="Application.Kalkulator" />
         <item itemvalue="Application.KlasyOslonowe" />
-        <item itemvalue="Application.StringProgram" />
       </list>
     </recent_temporary>
   </component>
