@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09514a82-c97f-4545-a967-55e6e9fd4c86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/ZgadnijLiczbe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/Funkcja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zadania/TabliczkaMnozenia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ZgadnijLiczbe">
+  <component name="RunManager" selected="Application.TabliczkaMnozenia">
     <configuration name="CalculatorProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zadania.CalculatorProgram" />
       <module name="repo" />
@@ -67,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Kalkulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zadania.Kalkulator" />
+    <configuration name="Funkcja" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania.Funkcja" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
@@ -80,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KlasyOslonowe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arguments.KlasyOslonowe" />
+    <configuration name="TabliczkaMnozenia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zadania.TabliczkaMnozenia" />
       <module name="repo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arguments.*" />
+          <option name="PATTERN" value="zadania.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TabliczkaMnozenia" />
+        <item itemvalue="Application.Funkcja" />
         <item itemvalue="Application.ZgadnijLiczbe" />
         <item itemvalue="Application.TrojkatProstokatnyProgram" />
         <item itemvalue="Application.CalculatorProgram" />
-        <item itemvalue="Application.Kalkulator" />
-        <item itemvalue="Application.KlasyOslonowe" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +213,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/arguments/KlasyOslonowe.java</url>
           <line>5</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zadania/TabliczkaMnozenia.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/zadania/TabliczkaMnozenia.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
