@@ -1,4 +1,4 @@
-package zadania;
+package Course.zadania;
 
 public class Funkcja {
 
