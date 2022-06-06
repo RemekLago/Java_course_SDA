@@ -1,4 +1,4 @@
-package zadania;
+package Course.zadania;
 
 // import static com.cedarsoftware.util.ArrayUtilities.*;
 
