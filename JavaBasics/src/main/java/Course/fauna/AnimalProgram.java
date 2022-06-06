@@ -1,4 +1,6 @@
-package fauna;
+package Course.fauna;
+
+import Course.fauna.AnimalHungerException;
 
 import java.util.Scanner;
 
@@ -19,7 +21,11 @@ public class AnimalProgram {
 
             switch (option) {
                 case "N":
-                    lion.makeNoise();
+                    try {
+                    lion.makeNoise(); }
+                    catch (AnimalHungerException e) {
+                        System.out.println("Error: " + e.getMessage());
+                    }
                     break;
                 case "S":
                     lion.sleep();

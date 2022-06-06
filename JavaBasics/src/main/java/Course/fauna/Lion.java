@@ -1,4 +1,4 @@
-package fauna;
+package Course.fauna;
 
 public class Lion {
 
@@ -13,10 +13,11 @@ public class Lion {
                 territoryX, territoryY);
     }
 
-    public void makeNoise() {
+    public void makeNoise() throws AnimalHungerException {
         if (hunger > 8) {
-            System.out.println("Jestem głodny. Nie mam sił hałasować");
-            return;
+//            System.out.println("Jestem głodny. Nie mam sił hałasować");
+//            return;
+            throw new AnimalHungerException("Jestem głodny. Nie mam sił hałasować");
         }
 
         System.out.println("Roarrr");

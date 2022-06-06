@@ -1,4 +1,4 @@
-package fauna;
+package Course.fauna;
 
 public class AnimalTerritory {
     private double x, y;
