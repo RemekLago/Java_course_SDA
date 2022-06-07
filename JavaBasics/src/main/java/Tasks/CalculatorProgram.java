@@ -10,7 +10,7 @@ public class CalculatorProgram {
         System.out.println("Please enter number1: ");
         float number1 = scanner.nextFloat();
 
-        System.out.println("Please enter number2: ");
+        System.out.println("Please enter number2: " );
         float number2 = scanner.nextFloat();
 
         sumNumbers(number1, number2);
@@ -21,17 +21,17 @@ public class CalculatorProgram {
 
     public static float sumNumbers(float x, float y) {
         float result = x + y;
-        System.out.printf("Sum: %.2f", result);
+        System.out.printf("Sum: %.2f \n", result);
         return result;
     }
     public static float subNumbers(float x, float y) {
         float result = x - y;
-        System.out.printf("Subtract: %.2f", result);
+        System.out.printf("Subtract: %.2f \n", result);
         return result;
     }
     public static float multiNumbers(float x, float y) {
         float result = x * y;
-        System.out.printf("Multiply: %.2f", result);
+        System.out.printf("Multiply: %.2f \n", result);
         return result;
     }
     public static float divisionNumbers(float x, float y) {
