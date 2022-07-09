@@ -54,4 +54,13 @@ public class CarDao extends GenericDao<Car>{
 //        objects.forEach((System.out::println));
 //        return null;
 //    }
+
+    public List<Car> findAboveAveragePrice(){
+        final EntityManager em = factory.createEntityManager();
+        final List<Car> cars = em
+                .createQuery("select c from Car c where c.price > (select avg.(c.price) from Car c", Car.class)
+                .getResultList();
+        em.close();
+        return cars;
+    }
 }
