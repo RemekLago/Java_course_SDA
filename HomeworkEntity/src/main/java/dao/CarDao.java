@@ -35,6 +35,16 @@ public class CarDao extends GenericDao<Car>{
     public Map<String, BigDecimal> findAveragePricePerModel(){
         final EntityManager em = factory.createEntityManager();
         final List<Object> objects = em
+                .createQuery("select avg(c.price) from Car c group by c.model", Object.class)
+                .getResultList();
+        em.close();
+        objects.forEach((System.out::println)); // z jedna kolumna tylko
+        return null;
+    }
+
+    public Map<String, BigDecimal> findAveragePricePerModel2(){
+        final EntityManager em = factory.createEntityManager();
+        final List<Object> objects = em
                 .createQuery("select avg(c.price), c.model from Car c group by c.model", Object.class)
                 .getResultList();
         em.close();
