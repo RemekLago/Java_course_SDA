@@ -6,6 +6,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map;
+import java.util.Objects;
 
 public class CarDao extends GenericDao<Car>{
     public CarDao(EntityManagerFactory factory, Class<Car> clazz) {
@@ -28,5 +30,15 @@ public class CarDao extends GenericDao<Car>{
                 .getResultList();
         em.close();
         return models;
+    }
+
+    public Map<String, BigDecimal> findAveragePricePerModel(){
+        final EntityManager em = factory.createEntityManager();
+        final List<Object> objects = em
+                .createQuery("select avg(c.price), c.model from Car c group by c.model", Object.class)
+                .getResultList();
+        em.close();
+        objects.forEach((System.out::println));
+        return null;
     }
 }
