@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+    <bean id="stringUtil" class="pl.sda.util.StringUtil"/>
+    <bean id="inMemoryPersonDao" class="pl.sda.dao.impl.InMemoryPersonDao"/>
+    <bean id="mockPersonDao" class="pl.sda.dao.impl.MockPersonDao"/>
+    <bean id="personValidator" class="pl.sda.util.PersonValidator"/>
+
+<!--    zakomentowane poniżej ponieważ mamy wstrzykiwanie za pomocą @Autowired-->
+<!--    <bean id="personService" class="pl.sda.service.impl.PersonServiceImpl">-->
+<!--        &lt;!&ndash;        wstrzykiwanie przez constructor&ndash;&gt;-->
+<!--        <constructor-arg index="0" ref="inMemoryPersonDao"/>-->
+<!--        &lt;!&ndash;        wstrzykiwanie przez setter&ndash;&gt;-->
+<!--        <property name="stringUtil" ref="stringUtil"/>-->
+
+<!--    </bean>-->
+    <bean id="personService" class="pl.sda.service.impl.PersonServiceImpl"/>
+
+    <context:annotation-config/>
+
+</beans>
