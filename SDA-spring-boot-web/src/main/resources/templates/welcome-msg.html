@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome-msg Page</title>
+</head>
+<body>
+
+<p th:text="${helloMsg}"/>
+
+<p th:each="element : ${elements}" th:text="${element}"/>
+
+</body>
+</html>
