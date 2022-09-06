@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">>
+<head>
+    <meta charset="UTF-8">
+    <title>Admin panel</title>
+</head>
+<body>
+
+<h1>Admin panel</h1>
+
+<p Logged as sec:authentication="name"/>
+
+<a th:href="@{/logout}">Logout</a>
+<a th:href="@{/books/list}">Book list</a>
+<a th:href="@{/books/create}">Add new book</a>
+
+</body>
+</html>
