@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Book edit</title>
+</head>
+
+<link rel="stylesheet" href="/webjars/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="/webjars/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<body>
+
+<form method="post" th:action="@{/admin/books/update}" th:object="${book}">
+
+    <input type="hidden" th:field="*{id}">
+
+    Title:
+    <input type="text" th:field="*{title}">
+
+    Author:
+    <input type="text" th:field="*{author}">
+
+    ISBN:
+    <input type="text" th:field="*{isbn}">
+
+    Description:
+    <input type="text" th:field="*{description}">
+
+
+    Release date:
+    <input type="text" th:field="*{releaseDate}">
+
+    <button type="submit" class="btn btn-primary">Update book</button>
+
+</form>
+
+</body>
+</html>
