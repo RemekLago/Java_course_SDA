@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Book list</title>
+</head>
+<body>
+
+Logged as <p th:text="${currentUser}"/>
+
+Logged as (thymeleaf) <p sec:authentication="name"/>
+
+<a th:href="@{/logout}">Logout</a>
+
+<div sec:authorize="hasRole('ROLE_ADMIN')">
+    <a th:href="@{/books/create}">Add new book</a>
+</div>
+
+<table>
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="book : ${books}">
+        <td th:text="${book.title}"/>
+        <td th:text="${book.author}"/>
+
+        <div sec:authorize="hasRole('ROLE_ADMIN')">
+            <td><a th:href="@{/admin/books/edit/{isbn}/(isbn=${book.isbn})}">edit</a></td>
+            <td><a th:href="@{/admin/books/delete/{isbn}/(isbn=${book.isbn})}">delete</a></td>
+        </div>
+        <td><a th:href="@{/books/details/{isbn}/(isbn=${book.isbn})}">details</a></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
